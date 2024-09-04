@@ -113,6 +113,7 @@ module.exports = {
 available 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜.
 
 Example: -help ai
+Owner: Tep
 ━━━━━━━━━━━━━━━━`;
 
       return message.reply(commandsList);
