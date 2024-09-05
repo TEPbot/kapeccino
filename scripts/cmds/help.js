@@ -123,7 +123,7 @@ available 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜.
 Example: -help ai
 ━━━━━━━━━━━━━━━━━━
 Owner: 𝐓𝐞𝐩
-Fb: https://www.facebook.com/crxxsss
+Fb:https://www.facebook.com/crxxsss
 ━━━━━━━━━━━━━━━━━━`;
 
       return message.reply(commandsList);
