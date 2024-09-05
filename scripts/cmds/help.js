@@ -29,6 +29,13 @@ removebg: {
     description: "Translate to any languages",
     guide: "Reply to text you want to translate and type \n-translate <language>"
   },
+	
+  callad: {
+    name: "callad",
+    description: "send report, feedback, bug,... to Admin bot",
+    guide: "-callad i love you admin"
+  },
+	
   pinterest: {
     name: "pinterest",
     description: "Searches Images in Pinterest ",
@@ -93,9 +100,10 @@ module.exports = {
     } else {
       const commandsList = `━━━━━━━━━━━━━━━━
 𝙰𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜:
-╭─╼━━━━━━━━╾─╮
-│ - AI
+╭─╼━━━━━━━━━━╾─╮
+│ - Ai
 │ - Alldl
+| - Callad
 │ - Dalle
 │ - Help
 │ - Lyrics
@@ -107,14 +115,16 @@ module.exports = {
 │ - Translate
 │ - Unsend
 │ - Uptime
-╰─━━━━━━━━━╾─╯
+╰─━━━━━━━━━━━╾─╯
 -𝚑𝚎𝚕𝚙 <𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚗𝚊𝚖𝚎>
 𝚃𝚘 𝚜𝚎𝚎 𝚑𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎
 available 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜.
 
 Example: -help ai
-Owner: Tep
-━━━━━━━━━━━━━━━━`;
+━━━━━━━━━━━━━━━━━━
+Owner: 𝐓𝐞𝐩
+Fb: https://www.facebook.com/crxxsss
+━━━━━━━━━━━━━━━━━━`;
 
       return message.reply(commandsList);
     }
