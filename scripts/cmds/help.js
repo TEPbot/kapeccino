@@ -103,7 +103,7 @@ module.exports = {
 ╭─╼━━━━━━━━━━╾─╮
 │ - Ai
 │ - Alldl
-| - Callad
+ | - Callad
 │ - Dalle
 │ - Help
 │ - Lyrics
