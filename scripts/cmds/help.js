@@ -56,6 +56,11 @@ removebg: {
     description: "Fetches lyrics of a song",
     guide: "-lyrics perfect by ed sheeran"
   },
+ owner: {
+    name: "owner",
+    description: "information about admin",
+    guide: "-owner"
+  },	
   help: {
     name: "help",
     description: "View all commands",
@@ -107,6 +112,7 @@ module.exports = {
 │ - Dalle
 │ - Help
 │ - Lyrics
+ │ - Owner
 │ - Pinterest
 │ - Prefix
 │ - Remini
