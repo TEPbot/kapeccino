@@ -81,6 +81,34 @@ removebg: {
     description: "deletes bot messages",
     guide: "reply to bot message and type -unsend"
   },
+  ytb: {
+  	name: "ytb",
+		version: "1.16",
+		author: "NTKhang",
+		countDown: 5,
+		role: 0,
+		description: {
+			vi: "Tải video, audio hoặc xem thông tin video trên YouTube",
+			en: "Download video, audio or view video information on YouTube"
+		},
+		category: "media",
+		guide: {
+			vi: "   {pn} [video|-v] [<tên video>|<link video>]: dùng để tải video từ youtube."
+				+ "\n   {pn} [audio|-a] [<tên video>|<link video>]: dùng để tải audio từ youtube"
+				+ "\n   {pn} [info|-i] [<tên video>|<link video>]: dùng để xem thông tin video từ youtube"
+				+ "\n   Ví dụ:"
+				+ "\n    {pn} -v Fallen Kingdom"
+				+ "\n    {pn} -a Fallen Kingdom"
+				+ "\n    {pn} -i Fallen Kingdom",
+			en: "   {pn} [video|-v] [<video name>|<video link>]: use to download video from youtube."
+				+ "\n   {pn} [audio|-a] [<video name>|<video link>]: use to download audio from youtube"
+				+ "\n   {pn} [info|-i] [<video name>|<video link>]: use to view video information from youtube"
+				+ "\n   Example:"
+				+ "\n    {pn} -v Fallen Kingdom"
+				+ "\n    {pn} -a Fallen Kingdom"
+				+ "\n    {pn} -i Fallen Kingdom"
+		}
+  }
 };
 
 module.exports = {
@@ -112,7 +140,7 @@ module.exports = {
 │ - Dalle
 │ - Help
 │ - Lyrics
- │ - Owner
+│ - Owner
 │ - Pinterest
 │ - Prefix
 │ - Remini
@@ -121,6 +149,7 @@ module.exports = {
 │ - Translate
 │ - Unsend
 │ - Uptime
+│ - Ytb
 ╰─━━━━━━━━━━━╾─╯
 -𝚑𝚎𝚕𝚙 <𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚗𝚊𝚖𝚎>
 𝚃𝚘 𝚜𝚎𝚎 𝚑𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎
